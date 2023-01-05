@@ -2,6 +2,15 @@
     display: inline-block;
     width: 200px;
     height: 200px;
+    margin: 30px;
+    padding: 30px;
+    background-color: aqua;
+}
+#inline span{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    padding: 30px;
     background-color: aqua;
 }
 #none {
