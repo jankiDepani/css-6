@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contener {
+    height: auto;
+    margin: 0 auto;
+    max-width: 1200px;
+    /* border: 1px solid black; */
+}
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.header {
+    position: sticky;
+    z-index: 2;
+    width: 100%;
+    /* border: 2px solid black; */
+    background-color: rgb(183, 178, 174);
+    top: 0;
+}
+.logo {
+    margin: 20px;
+    float: left;
+    /* border: 1px solid red; */
+}
+.logo img {
+    width: 200px;
+    height: 150px;
+}
+nav {
+    float: right;
+}
+nav ul {
+    line-height: 120px;
+}
+nav ul li {
+    padding: 20px;
+    display: inline-block;
+}
+nav ul a {
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+}
+nav ul li a:hover{
+    color: red;
+    text-decoration: underline solid;
+}
+@media screen and (max-width:800px) {
+    .logo,nav {
+        width: 100%;
+        text-align: center;
+    }
+}
+.card {
+    margin: 0 auto;
+    float: left;
+    margin: 30px;
+    width: 200px;
+    height: 300px;
+    min-width: 150px;
+    max-width: 220px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: rgb(254, 253, 239);
+}
+.card1 {
+    clear: both;
+}
+/* .card3 {
+    clear: both;
+}
+.card7 {
+    clear: both;
+} */
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.photo {
+    position: relative;
+}
+.icon {
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+.product .card .photo .icon i {
+    font-size: 25px;
+    color:white;
+}  
+.product .card .photo .icon i:hover {
+    color:green;
+}
+.photo img{
+    width: 100%;
+    height: 70%;
+    border-radius: 10px 10px 0px 0px;
+}
+.info {
+    width: 100%;
+    height: 30%;
+    padding-bottom: 0px;
+    text-align: center;
+}
+.info h3{
+    font-size:30px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.info span {
+    font-size:20px;
+    font-weight: 600;
+    text-transform: capitalize;
+    text-align: center;
+}   
+.card5 .info{
+    padding-top: 15px;
+}

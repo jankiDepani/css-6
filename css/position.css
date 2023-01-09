@@ -1,0 +1,31 @@
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    color: brown;
+}
+.relative {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+.absolute {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.parent {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background-color: aqua;
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.sticky {
+    position: sticky;
+    top: 10px;
+}
