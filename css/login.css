@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after {
+    clear: both;
+    content: '';
+    display: block;
+}
+.contener {
+    max-width: 900px;
+    height: auto;
+    border-radius: 50px;
+    overflow:hidden;
+    font-family: sans-serif;
+    position: relative;
+    border: 2px solid black;
+}
+.box1 {
+    width: 50%;
+    float: left;
+    height: 100%;
+    text-align: center;
+    text-transform: capitalize;
+    background-color: #fff;
+}
+h1 {
+    color:#A91D40;
+}
+p{
+    color: rgba(0,0,0,0.6);
+}
+/* .icon {
+    margin: 0 auto;
+    position: relative;
+     padding: 20px; 
+    border :2px solid black;
+    text-align: center;
+}  */
+.icon a {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: inline-block;
+    /* margin:10px; */
+    color:#A91D40 ;
+    /* float: left; */
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 2px solid #A91D40;
+}
+.facebook a{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 0;
+    left: 40%;
+    display: inline-block;
+    /* margin:10px; */
+    color:#A91D40 ;
+    /* float: left; */
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 2px solid #A91D40;
+}
+.google a{
+    width: 50px;
+    height: 50px;
+    /* position: absolute; */
+    /* top: 0; */
+    /* left: 50%; */
+    color: #A91D40;
+    display: inline-block;
+    /* margin: 10px; */
+    /* float: left; */
+    text-align: center;
+    font-size: 40px;
+    border-radius: 50%;
+    border: 2px solid #A91D40;
+}
+.down{
+    clear: both;
+    color: rgba(0,0,0,0.6);
+    line-height: 40px;
+}
+.down .login {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border: none;
+    text-align: center;
+    background-color: #A91D40;
+    border-radius: 20px;
+}
+.box2 {
+    background-image: url(../photos/bg.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top:-85px;
+    right: -65px;
+}
