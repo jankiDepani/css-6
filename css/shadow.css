@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    width: 200px;
+    height: 200px;
+    float: left;
+    background-color:chocolate;
+    margin: 30px;
+}
+.box1 {
+    box-shadow:10px 10px 30px 10px #000 ;
+}
+.box2 {
+    box-shadow:5px 5px 30px 5px rgba(0,0,0,0.2) ;
+}
+h1 {
+    clear: both;
+    text-shadow: 5px 5px 10px rgba(120, 2, 90,0.3);
+}

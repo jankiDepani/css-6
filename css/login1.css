@@ -8,17 +8,22 @@
     content: '';
     display: block;
 }
+@font-face {
+    font-family: CaviarDreams;
+    src: url(../font/CaviarDreams-webfont.woff);
+}
 .main {
     height: 90vh;
     max-width: 60%;
     text-align: center;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     overflow: hidden;
-    font-family: Arial, sans-serif;
+    font-family: CaviarDreams;
     position: relative;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 20px;
     margin: 30px auto;
+    box-shadow: -8px 8px 30px 0px rgba(0, 0, 0, 0.2);
 }
 .box1 {
     width: 50%;
@@ -27,14 +32,15 @@
     position: relative;
     line-height: 40px;
     float: left;
+    /* border: 2px solid black; */
 }
 h2 {
     font-size: 50px;
-    font-weight: lighter;
+    font-weight:300px;
     color: #A91D40;
 }
 p{
-    margin: 35px;
+    margin: 40px;
     font-size: 20px;
     color: rgba(0,0,0,0.6);
 }
@@ -45,11 +51,12 @@ span {
     color: rgba(0,0,0,0.6);
 }
 .icon1 {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 160px;
+    top: 166px;
     left: 35%;
+    padding: 4px;
     display: inline-block;
     margin:15px;
     color:#A91D40 ;
@@ -59,11 +66,12 @@ span {
     border: 2px solid #A91D40;
 }
 .icon2 {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     position: absolute;
-    top: 160px;
+    top: 166px;
     left: 50%;
+    padding: 4px;
     display: inline-block;
     margin:15px;
     color:#A91D40 ;
@@ -73,14 +81,19 @@ span {
     border: 2px solid #A91D40;
 }
 .box1 form input {
-    margin: 10px ;
+    margin: 10px auto;
     border: none;
-    padding: 25px 10px 10px 25px;
-    font-size: 20px;
+    width: 75%;
+    display: inline-block;
+    padding: 16px;
+    font-size: 16px;
     background-color: #EFEFEF;
 }
 form a{
     color: #A91D40;
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
     text-decoration: none;
 }
 form button {
@@ -102,6 +115,6 @@ form button {
     width: 750px;
     height: 750px;
     position: absolute;
-    top:-55px;
+    top:-40px;
     left: 50%;
 }
