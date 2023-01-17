@@ -1,0 +1,64 @@
+.continer {
+    width: 100%;
+    height: 900px;
+    background-color: aqua;
+    display: flex;
+    color:#fff;
+    font-size: 20px;
+    margin: 10px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    /* margin: 20px; */
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    /* margin: 20px; */
+}
+.wrap {
+    flex-wrap:wrap;
+}
+.warp_revers {
+    flex-wrap: wrap-reverse;
+}
+.just_center {
+    justify-content: center;
+}
+.space_between {
+    justify-content: space-between;
+}
+.space_around {
+    justify-content: space-around;
+}
+.space_evenly {
+    justify-content: space-evenly;
+}
+.align_item {
+    align-items: center;
+}
+.align_content_center {
+    align-content: center;
+    flex-wrap: wrap;
+}
+.align_content_spaceBetween {
+    align-content: space-between;
+    flex-wrap: wrap;
+}
+.align_content_spaceAround {
+    align-content: space-around;
+    flex-wrap: wrap;
+}
+.align_content_spaceEvenly {
+    align-content:space-evenly;
+    flex-wrap: wrap;
+}
+.direction {
+    flex-direction: column;
+    align-items: center;
+}
