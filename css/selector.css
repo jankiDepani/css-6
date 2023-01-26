@@ -1,0 +1,24 @@
+.combi > p {
+    color: red;
+}
+.combi h2 + p {
+    font-size: 50px;
+}
+.combi div ~ p {
+    font-style: italic;
+}
+.achor {
+    font-size: 50px;
+}
+.achor a:link {
+    color: hotpink;
+}
+.achor a:hover {
+    color: yellow;
+}
+.achor a:active {
+    color: yellowgreen;
+}
+/* .achor a:visited {
+    color:blueviolet;
+} */
