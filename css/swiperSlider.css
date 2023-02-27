@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.swiper {
+    width: 1000px;
+    height: 500px;
+  }
+  .swiper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  } 
+  .mainSlider .prev, .mainSlider .next {
+    position: absolute;
+    font-family: "Font Awesome 5 Free";
+    font-size: 20px;
+    text-align: center;
+    top: 50%;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    z-index: 999;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: transparent;
+  }
+  .mainSlider .prev {
+    left: 20px;
+  }
+  .mainSlider .next {
+    right: 20px;
+  }
