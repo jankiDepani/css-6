@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: hotpink;
+    animation-name: janki;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes janki {
+    from {
+        background-color: chocolate;
+        transform: translateX(0) rotate(0deg) scale(0.5);
+    }
+    to {
+        background-color: hotpink;
+        transform: translateX(1000px) rotate(360deg) scale(1);
+    }
+}
+.box1 {
+    width: 100%;
+    height: 800px;
+    background-color: cadetblue;
+}
+.box1 .ball {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkmagenta;
+}
+.ball1 {
+    margin: 0 auto;
+    animation-name: bounsing-ball;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes bounsing-ball {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(350px);
+    }
+}
+.ball2 {
+    margin: auto 0;
+    animation-name: bounsing-ball1;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes bounsing-ball1 {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(1000px);
+    }
+}
+.line {
+    width: 90%;
+    height: 2px;
+    background-color: #fff;
+    margin:0 auto;
+    margin-top: 300px;
+}
+.box1 .lineAnimation span {
+    height: 200px;
+    width: 5px;
+    background-color: red;
+    margin: 10px;
+    display: inline-block;
+    animation-name: rambo;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    transform-origin: bottom center;
+}
+.box1 .lineAnimation :first-child {
+    background-color: red;
+    animation-delay: 0.2s;
+}
+.box1 .lineAnimation :nth-child(2)  {
+    background-color:orange ;
+    animation-delay: 0.4s;
+}
+.box1 .lineAnimation :nth-child(3)  {
+    background-color:yellow ;
+    animation-delay: 0.6s;
+}
+.box1 .lineAnimation :nth-child(4)  {
+    background-color:lightgreen ;
+    animation-delay: 0.8s;
+}
+.box1 .lineAnimation :nth-child(5)  {
+    background-color:lightskyblue ;
+    animation-delay: 1s;
+}
+.box1 .lineAnimation :nth-child(6)  {
+    background-color:blue ;
+    animation-delay: 1.2s;
+}
+.box1 .lineAnimation :nth-child(7)  {
+    background-color: purple ;
+    animation-delay: 1.4s;
+}
+@keyframes rambo {
+    0% {
+        transform: scaleY(1);
+    }
+    50%{
+        transform: scaleY(0);
+    }
+    100%{
+        transform: scaleY(1);
+    }
+}
+.super {
+    padding-top: 200px;
+    width: 500px;
+    height: 500px;  
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+}
+.super .ball3 {
+    background-color:brown;
+    width: 50px;
+    height: 50px;
+    /* margin: 0 auto; */
+    animation-name: left-to-right;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    border-radius: 50%;
+}
+@keyframes left-to-right {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(250px);
+    }
+}
+.super .ball4 {
+    background-color:darkmagenta;
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    border-radius: 50%;
+    animation-name: right-to-left;
+    animation-duration: 4s;
+    animation-timing-function: linear;
+    animation-direction:alternate-reverse;
+    animation-iteration-count: infinite;
+}
+@keyframes right-to-left {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(200px);
+    }
+}
